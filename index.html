@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="stile.css">
+    <title>Crypto Coins</title>
+
+</head>
+
+<body>
+    <!--loader-->
+    <div class="loader" id="loader">
+        <div class="lds-hourglass"></div>
+    </div>
+    <!--nav input busqueda y title-->
+    <nav>
+        <div class="place-content-center place-items-center content-center flex items-center">
+            <input
+                class="criptoCoinSearch w-8/12 p-2 rounded border-0 shadow form-input pl-16 placeholder-white text-white bg-gray-600 mt-4"
+                type="search" name="searchCoin" id="searchCoin" placeholder="Buscar Criptomoneda">
+        </div>
+        <h1 class="mt-4 sm:text-4xl text-center font-bold font-serif italic">Listado Criptomonedas mas populares Market
+            EU</h1>
+    </nav>
+
+    <!--listadoMonedas-->
+    <div id="cryptosCoins"
+        class="mt-10 w-3/4 mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
